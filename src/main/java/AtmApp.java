@@ -51,6 +51,5 @@ public class AtmApp {
 
             System.out.println("Thank you with us have a good day!");
         }
-    }
-
 }
+
