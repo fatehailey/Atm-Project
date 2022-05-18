@@ -87,5 +87,5 @@ public class Atm {
                 }
             System.out.println("Thank you with us have a good day!");
             }
-        }
-}
+         }
+
