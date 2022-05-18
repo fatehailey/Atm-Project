@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AtmTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2022-04-09T17:16:55" hostname="Madisons-MacBook-Air.local" time="0.059">
+  <properties/>
+  <testcase name="shouoldAllowUserAccessWithCorrectPin()" classname="AtmTest" time="0.026"/>
+  <testcase name="shouldHaveADefaultBalanceOf100()" classname="AtmTest" time="0.001"/>
+  <testcase name="shouldDenyUserAccessWithIncorrectPin()" classname="AtmTest" time="0.001"/>
+  <testcase name="shouldHaveADefaultBalanceOf50()" classname="AtmTest" time="0.001"/>
+  <testcase name="withdrawOf50ShouldDecreaseAnInitialBalanceOf50To100()" classname="AtmTest" time="0.002"/>
+  <testcase name="depositOf50ShouldIncreaseAnInitialBalanceOf50To100()" classname="AtmTest" time="0.0"/>
+  <testcase name="withdrawOf51ShouldReturnOrginalBalanceOf50()" classname="AtmTest" time="0.013"/>
+  <system-out><![CDATA[Insufficient funds to make with the withdraw
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
