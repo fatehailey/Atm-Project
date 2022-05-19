@@ -9,10 +9,12 @@ public class AtmApp {
             System.out.println("Welcome to Bank of We Can Code IT");
             System.out.println("Please enter your pin");
 
+
+            //should print incorrect pin
             for(String userEnteredPin = input.nextLine(); !myAtm.accessAccount(userEnteredPin); userEnteredPin = input.nextLine()) {
                 System.out.println("Incorrect pin please try again");
             }
-
+            //menu
             System.out.println("Please select from the menu below");
             System.out.println("Press 1 to check balance");
             System.out.println("Press 2 to make a deposit");
@@ -41,7 +43,7 @@ public class AtmApp {
                         System.out.println("I am sorry I do not understand your request");
                     }
                 }
-
+                //menu
                 System.out.println("Please select from the menu below");
                 System.out.println("Press 1 to check balance");
                 System.out.println("Press 2 to make a deposit");
